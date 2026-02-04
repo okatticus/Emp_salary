@@ -5,6 +5,13 @@ Employee Salary Service (FastAPI + TDD)
 A backend service to manage employees and compute salary-related information.
 Built using FastAPI, SQLite, and SQLAlchemy, following a strict Test-Driven Development (TDD) workflow.
 
+Sample request
+![Sample request](images/request.png)
+
+
+Sample response
+![API response](images/response.png)
+
 ✨ Features
 1. Employee CRUD
 
