@@ -1,0 +1,7 @@
+{
+  "id": 1,
+  "full_name": "Apoorva Sharma",
+  "job_title": "Backend Engineer",
+  "country": "India",
+  "salary": 100000
+}

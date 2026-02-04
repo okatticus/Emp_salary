@@ -12,12 +12,15 @@ def test_create_employee(client):
     data = response.json()
     assert data["full_name"] == "Apoorva Sharma"
     assert data["id"] is not None
+    print(f"Data={data}")
 
 
 def test_get_employee(client):
     response = client.get("/employees/1")
     assert response.status_code == 200
     assert response.json()["id"] == 1
+    print(f"response={response}")
+
 
 
 def test_update_employee(client):
@@ -27,6 +30,7 @@ def test_update_employee(client):
     )
     assert response.status_code == 200
     assert response.json()["salary"] == 120000
+    print(f"response: {response}")
 
 
 def test_delete_employee(client):
