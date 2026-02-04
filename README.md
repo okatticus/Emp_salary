@@ -1,4 +1,6 @@
-# Emp_salary
+
+# Employee_salary APIs
+
 
 Employee Salary Service (FastAPI + TDD)
 
@@ -11,6 +13,7 @@ Sample request
 
 Sample response
 ![API response](images/response.png)
+
 
 ✨ Features
 1. Employee CRUD
